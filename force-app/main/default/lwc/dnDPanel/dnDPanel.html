@@ -1,0 +1,11 @@
+<template>
+    <div class="slds-grid slds-wrap" ondragend={dragEndItem} ondrop={dropItem} ondragover={allowDrop} style="height: 300px;width: 100px;border-style: dotted">
+        <template for:each={tempItems} for:item="ditem">
+            <div key={ditem.id} class="slds-col slds-size_1-of-1">
+                <c-dn-d-item
+                    ditem={ditem}>
+                </c-dn-d-item>
+            </div>
+        </template>
+</div>
+</template>

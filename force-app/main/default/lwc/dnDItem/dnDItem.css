@@ -1,0 +1,13 @@
+.dnd-item{
+    border:1px solid #bbb; 
+    border-radius:8px;
+    color: #484848;
+    text-align:center;
+    padding:12px;
+    width: 88px;
+}
+
+.dnd-item:hover{
+    cursor: pointer;
+    background-color: rgb(196, 198, 202);
+}
